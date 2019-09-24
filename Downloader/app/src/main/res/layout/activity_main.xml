@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#C51162"
+        android:text="Downloader"
+        android:id="@+id/sign">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/begin"
+        android:text="开始下载"
+        android:background="#1900B8D4"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/end"
+        android:text="取消下载"
+        android:background="#1900B8D4"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff">
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="Hello World!"
+        android:id="@+id/percent"
+        />
+
+</LinearLayout>
